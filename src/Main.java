@@ -4,16 +4,16 @@ public class Main {
     public static void main(String[] args) {
 
         int amount = 100; // начальный счет клиента
-        int top_up = 1300; //сумма пополнения
-        int total = amount + top_up;
+        int topUp = 1300; //сумма пополнения
+        int total = amount + topUp;
 
         int bonus;
-        if (top_up >1000) {
-            bonus = top_up / 100;
+        if (topUp > 1000) {
+            bonus = topUp / 100;
         } else {
-            bonus =0;
+            bonus = 0;
         }
-        System.out.println("Бонус " +bonus);
-        System.out.println("Счет " +total);
-        }
+        System.out.println("Бонус " + bonus);
+        System.out.println("Счет " + total);
     }
+}
